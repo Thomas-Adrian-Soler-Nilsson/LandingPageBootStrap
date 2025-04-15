@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#home">Logo da empresa</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#localizacao">Localização</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--section Home-->
+    <section id="home" class="d-flex">
+        <div class="container">
+            <h1>Página Inicial</h1>
+            <p>Exemplo de Landing Page</p>
+            <a href="#sobre" class="btn btn-primary scroll-btn">Sobre a empresa</a>
+        </div>
+    </section>
+
+    <!--section Sobre-->
+    <section id="sobre" class="d-flex bg-light">
+        <div class="container text-center">
+            <h1>Sobre a empresa</h1>
+            <p>A empresa é...</p>
+            <a href="#contato" class="btn btn-success scroll-btn">Fale Conosco</a>
+        </div>
+    </section>
+
+    <!--section Contato-->
+    <section id="contato" class="d-flex bg-light">
+        <div class="container text-center">
+            <h1>Fale Conosco</h1>
+            <p>Formulário aqui</p>
+            <a href="#localizacao" class="btn btn-danger scroll-btn">Localização</a>
+        </div>
+    </section>
+
+    <!--section Localização-->
+    <section id="localizacao" class="d-flex bg-light">
+        <div class="container text-center">
+            <h1>Localização</h1>
+            <p>Mapa aqui</p>
+            <a href="#home" class="btn btn-danger scroll-btn">Página Inicial</a>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
